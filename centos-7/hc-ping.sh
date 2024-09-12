@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PING_KEY=0e9ff055-6aae-45ef-8324-6220de84adce
+PING_KEY=fixme-enter-ping-key
 
 # Construct a ping URL and append "?create=1" at the end:
 URL=https://hc-ping.com/$PING_KEY

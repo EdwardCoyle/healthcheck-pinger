@@ -1,0 +1,9 @@
+[Unit]
+Description = Heartbeat announcer script for https://healthcheck.io
+After = network.target
+
+[Service]
+ExecStart = /root/scripts/hc-ping.sh
+
+[Install]
+WantedBy = multi-user.target
